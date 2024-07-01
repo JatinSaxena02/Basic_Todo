@@ -27,6 +27,7 @@ export default function Form({ todos, setTodos }) {
         <div>
           <input
             type="text"
+            required
             style={{ backgroundColor: "gray", fontFamily: "cursive" }}
             placeholder="Enter Todos to add in your list..."
             className="focus:outline-none w-full block mt-1 text-white text-xl"
